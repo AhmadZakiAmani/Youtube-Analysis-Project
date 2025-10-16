@@ -1,4 +1,8 @@
-🌐 Languages: [English](#english-version) | [Bahasa Indonesia](#indonesian-version)
+<a id="top"></a>
+
+<details>
+  <summary>🇬🇧 Read In English (Click to open)</summary>
+  <br>
 
 ---
 
@@ -239,12 +243,17 @@ Hi, I'm **Ahmad Zaki Amani** 👋
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzaki27.az@gmail.com) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaki-amani-ab091635b/)  
+[![Notion](https://img.shields.io/badge/Notion-000?logo=notion&logoColor=fff)](https://www.notion.so/Portofolio-Data-Analysis-1e26e9f3bfd680fb9c92f7dc6734a391?source=copy_link)
+
+<p align="right"><a href="#top">Back To Top ⬆️</a></p>
 
 ---
-🌐 Languages: [English](#english-version) | [Bahasa Indonesia](#indonesian-version)
+</details>
 
----
-<a name="indonesian-version"></a>
+<details>
+  <summary>🇮🇩 Baca dalam Bahasa Indonesia (Klik untuk membuka)</summary>
+  <br>
+   
 # 📊 Detail Channel YouTube dengan Power BI + YouTube API
 
 ---
@@ -484,5 +493,8 @@ Halo, saya **Ahmad Zaki Amani** 👋
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:ahmadzaki27.az@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ahmad-zaki-amani-ab091635b/)
+[![Notion](https://img.shields.io/badge/Notion-000?logo=notion&logoColor=fff)](https://www.notion.so/Portofolio-Data-Analysis-1e26e9f3bfd680fb9c92f7dc6734a391?source=copy_link)
 
 ---
+<p align="right"><a href="#top">Back To Top ⬆️</a></p>  
+</details>
