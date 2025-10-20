@@ -4,7 +4,7 @@
   <summary>🇬🇧 Read In English (Click to open)</summary>
   <br>
   
-# YouTube Channel Analysis Dashboard
+# 🎥 YouTube Channel Analysis Dashboard
 
 ## 🚀 Project Summary
 
@@ -101,7 +101,7 @@ Hello, I'm **Ahmad Zaki Amani** 👋
   <summary>🇮🇩 Baca dalam Bahasa Indonesia (Klik untuk membuka)</summary>
   <br>
 
-# Dashboard Analisis Saluran YouTube
+# 🎥 Dashboard Analisis Saluran YouTube
 
 ## 🚀 Ringkasan Proyek
 
