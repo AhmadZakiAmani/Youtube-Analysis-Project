@@ -1,0 +1,34 @@
+// ===================================
+// CHANNEL-LEVEL METRICS
+// ===================================
+
+// ------------------------------------
+// Measure: Total Channel
+// Desc: Menghitung jumlah total channel dalam dataset
+// ------------------------------------
+
+// ------------------------------------
+// Measure: Subscribers_Count_Title
+// Desc: Menampilkan total subscriber untuk channel yang dipilih, dengan format juta.
+Subscribers_Count_Title = 
+
+VAR TotalSubscribers = SUM(Channel_Info[Subscribers])
+VAR txt = "Subscriber"
+VAR FormattedValue =
+    SWITCH(
+        TRUE(),
+        TotalSubscribers >= 10000000000, FORMAT(TotalSubscribers / 10000000000, "0.0") & " m+",
+        TotalSubscribers >= 1000000, FORMAT(TotalSubscribers / 1000000, "0.0") & " jt+",
+        TotalSubscribers >= 1000, FORMAT(TotalSubscribers / 1000, "0.0") & " rb+",
+        FORMAT(TotalSubscribers, "0") // Default case untuk angka < 1000
+    )
+RETURN
+    FormattedValue & " " & txt
+// ------------------------------------
+
+// ------------------------------------
+// Measure: Total Channel Title
+// Desc: Membuat teks judul dinamis yang menampilkan jumlah total channel (misalnya: "Total 5 Channel").
+Total_Channel_Title = "Total " & [Total_Channel] & " Channel"
+// ------------------------------------
+  
