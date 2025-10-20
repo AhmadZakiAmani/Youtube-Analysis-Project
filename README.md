@@ -66,7 +66,7 @@ Berikut adalah cuplikan dari beberapa halaman utama dasbor:
 
 **Halaman Perbandingan (Channel vs Channel)**
 *Menyajikan perbandingan berdampingan antara dua saluran yang dipilih secara dinamis.*
-![Channel vs Channel Page]((https://github.com/AhmadZakiAmani/Youtube-Analysis-Project/blob/main/docs/Channel%20vs%20Channel.gif))
+![Channel vs Channel Page](https://github.com/AhmadZakiAmani/Youtube-Analysis-Project/blob/main/docs/Channel%20vs%20Channel.gif)
 
 ---
 
