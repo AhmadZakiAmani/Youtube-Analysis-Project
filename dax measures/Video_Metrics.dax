@@ -1,0 +1,59 @@
+// ===================================
+// VIDEO-LEVEL METRICS
+// ===================================
+
+// ------------------------------------
+// Measure: Comment Count Title
+// Desc: Menjumlahkan total komentar dan memformatnya menjadi teks yang disingkat (misal: "1.2 jt komentar") untuk digunakan dalam judul atau kartu.
+Comment_Count_Title =
+VAR TotalComments = SUM ( Video_Detail[Comments] )
+VAR txt = "komentar"
+VAR FormattedValue =
+    SWITCH (
+        TRUE (),
+        TotalComments >= 1000000000, FORMAT ( TotalComments / 1000000000, "0.0" ) & " m",
+        TotalComments >= 1000000, FORMAT ( TotalComments / 1000000, "0.0" ) & " jt",
+        TotalComments >= 1000, FORMAT ( TotalComments / 1000, "0.0" ) & " rb",
+        FORMAT ( TotalComments, "0" )
+    )
+RETURN
+    FormattedValue & " " & txt
+// ------------------------------------
+
+// ------------------------------------
+// Measure: Likes Count Title
+// Desc: Menjumlahkan total like dan memformatnya menjadi teks yang disingkat untuk digunakan dalam judul atau kartu.
+Likes_Count_Title =
+VAR TotalLikes = SUM(Video_Detail[Likes]) 
+VAR txt = "disukai"
+VAR FormattedValue =
+    SWITCH (
+        TRUE (),
+        TotalLikes >= 1000000000, FORMAT ( TotalLikes / 1000000000, "0.0" ) & " m",
+        TotalLikes >= 1000000, FORMAT ( TotalLikes / 1000000, "0.0" ) & " jt",
+        TotalLikes >= 1000, FORMAT ( TotalLikes / 1000, "0.0" ) & " rb",
+        FORMAT ( TotalLikes, "0" )
+    )
+RETURN
+    FormattedValue & " " & txt
+// ------------------------------------
+
+// ------------------------------------
+// Measure: Views Count Title
+// Desc: Menjumlahkan total view dan memformatnya menjadi teks yang disingkat untuk digunakan dalam judul atau kartu.
+Views_Count_Title =
+VAR TotalViews =  SUM(Video_Detail[Views])
+VAR txt = "ditonton"
+VAR FormattedValue =
+    SWITCH (
+        TRUE (),
+        TotalViews >= 1000000000, FORMAT ( TotalViews / 1000000000, "0.0" ) & " m",
+        TotalViews >= 1000000, FORMAT ( TotalViews / 1000000, "0.0" ) & " jt",
+        TotalViews >= 1000, FORMAT ( TotalViews / 1000, "0.0" ) & " rb",
+        FORMAT ( TotalViews, "0" )
+    )
+RETURN
+    FormattedValue & " " & txt
+// ------------------------------------
+
+  
