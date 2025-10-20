@@ -150,6 +150,9 @@ YouTube-Analysis-Project/
 └── power query scripts/        # Berisi logika query untuk pengambilan data
     └── README.md               # Penjelasn dan Skrip Power Query (M) untuk panggilan API
 ```
+
+---
+
 ## 📊 Visualisasi Dasbor
 
 Berikut adalah cuplikan dari beberapa halaman utama dasbor:
