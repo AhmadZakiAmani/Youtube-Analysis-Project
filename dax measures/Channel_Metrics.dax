@@ -31,4 +31,10 @@ RETURN
 // Desc: Membuat teks judul dinamis yang menampilkan jumlah total channel (misalnya: "Total 5 Channel").
 Total_Channel_Title = "Total " & [Total_Channel] & " Channel"
 // ------------------------------------
+
+// ------------------------------------
+// Calculated Column: Link_yt
+// Desc: Menggabungkan URL dasar YouTube dengan custom URL dari setiap channel untuk membuat tautan lengkap yang bisa diklik.
+Link_yt = "https://www.youtube.com/" & (Channel_Info[CustomURL])
+// ------------------------------------
   
