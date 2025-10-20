@@ -54,7 +54,7 @@ YouTube-Analysis-Project/
 │   └── YouTube Dashboard.pbit  # File template Power BI (tanpa data)
 │
 └── power query scripts/        # Berisi logika query untuk pengambilan data
-    └── youtube api calls.m     # Skrip Power Query (M) untuk panggilan API
+    └── README.md               # Penjelasn dan Skrip Power Query (M) untuk panggilan API
 ```
 ## 📊 Visualisasi Dasbor
 
