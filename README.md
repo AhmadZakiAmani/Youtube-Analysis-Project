@@ -85,9 +85,11 @@ Hello, I'm **Ahmad Zaki Amani** 👋
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ahmad-zaki-amani-ab091635b/)
 [![Notion](https://img.shields.io/badge/Notion-000?logo=notion&logoColor=fff)](https://www.notion.so/Portofolio-Data-Analysis-1e26e9f3bfd680fb9c92f7dc6734a391?source=copy_link)
 
+<p align="right"><a href="#top">Back To Top ⬆️</a></p>  
+</details>
+
 ---
-Back To Top ⬆️
----
+
 </details>
 
 <details>
