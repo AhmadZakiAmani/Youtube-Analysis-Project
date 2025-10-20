@@ -62,11 +62,11 @@ Berikut adalah cuplikan dari beberapa halaman utama dasbor:
 
 **Halaman Utama (Home Page)**
 *Menampilkan detail dari saluran yang dipilih beserta daftar videonya.*
-![Home Page](docs/Home.png)
+![Home Page](docs/Home.gif)
 
 **Halaman Perbandingan (Channel vs Channel)**
 *Menyajikan perbandingan berdampingan antara dua saluran yang dipilih secara dinamis.*
-![Channel vs Channel Page](docs/Channel_vs_Channel.png)
+![Channel vs Channel Page]((https://github.com/AhmadZakiAmani/Youtube-Analysis-Project/blob/main/docs/Channel%20vs%20Channel.gif))
 
 ---
 
