@@ -36,6 +36,10 @@ This project is a custom analytical dashboard designed to monitor and compare th
 ```
 YouTube-Analysis-Project/
 ├── README.md                   # Main explanation for this project
+|
+├── dax measures/               # Folder to store .dax files (DAX formula collections)
+│   ├── Video_Metics.dax
+│   └── Channel_Metrics.dax 
 │
 ├── docs/                       # Contains all project documentation & screenshots
 │   ├── Youtube Dashboard.png    
@@ -129,6 +133,10 @@ Proyek ini adalah sebuah dasbor analitik kustom yang dirancang untuk memantau da
 ```
 YouTube-Analysis-Project/
 ├── README.md                   # Penjelasan utama proyek ini
+|
+├── dax measures/               # Folder untuk menyimpan file .dax (kumpulan rumus DAX)
+│   ├── Video_Metics.dax
+│   └── Channel_Metrics.dax 
 │
 ├── docs/                       # Berisi semua dokumentasi & screenshot
 |   ├── Youtube Dashboard.png    
